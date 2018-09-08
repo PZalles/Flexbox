@@ -11,7 +11,7 @@ body {
 
 h1 {
     text-transform: uppercase;
-    margin: 30px;
+    margin: 50px;
 }
 
 section {
@@ -19,4 +19,21 @@ section {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    background-color: #ccc;
+    flex-basis: 25%;
+    padding: 30px;
+}
+
+.col>* {
+    padding-bottom: 30px;
+}
+
+img {
+    align-self: center;
+    width: 90%;
 }
